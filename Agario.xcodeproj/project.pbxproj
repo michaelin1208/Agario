@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EF72611B81BCC2004A4FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF72601B81BCC2004A4FBC /* AppDelegate.swift */; };
+		01EF72631B81BCC2004A4FBC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01EF72621B81BCC2004A4FBC /* GameScene.sks */; };
+		01EF72651B81BCC2004A4FBC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF72641B81BCC2004A4FBC /* GameScene.swift */; };
+		01EF72671B81BCC2004A4FBC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF72661B81BCC2004A4FBC /* GameViewController.swift */; };
+		01EF726A1B81BCC2004A4FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01EF72681B81BCC2004A4FBC /* Main.storyboard */; };
+		01EF726C1B81BCC2004A4FBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EF726B1B81BCC2004A4FBC /* Images.xcassets */; };
+		01EF726F1B81BCC2004A4FBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EF726D1B81BCC2004A4FBC /* LaunchScreen.xib */; };
+		01EF727B1B81BCC2004A4FBC /* AgarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF727A1B81BCC2004A4FBC /* AgarioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01EF72751B81BCC2004A4FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01EF72531B81BCC2004A4FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01EF725A1B81BCC2004A4FBC;
+			remoteInfo = Agario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EF725B1B81BCC2004A4FBC /* Agario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EF725F1B81BCC2004A4FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EF72601B81BCC2004A4FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01EF72621B81BCC2004A4FBC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		01EF72641B81BCC2004A4FBC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		01EF72661B81BCC2004A4FBC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		01EF72691B81BCC2004A4FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01EF726B1B81BCC2004A4FBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01EF726E1B81BCC2004A4FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		01EF72741B81BCC2004A4FBC /* AgarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EF72791B81BCC2004A4FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EF727A1B81BCC2004A4FBC /* AgarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgarioTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01EF72581B81BCC2004A4FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EF72711B81BCC2004A4FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EF72521B81BCC2004A4FBC = {
+			isa = PBXGroup;
+			children = (
+				01EF725D1B81BCC2004A4FBC /* Agario */,
+				01EF72771B81BCC2004A4FBC /* AgarioTests */,
+				01EF725C1B81BCC2004A4FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01EF725C1B81BCC2004A4FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EF725B1B81BCC2004A4FBC /* Agario.app */,
+				01EF72741B81BCC2004A4FBC /* AgarioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01EF725D1B81BCC2004A4FBC /* Agario */ = {
+			isa = PBXGroup;
+			children = (
+				01EF72601B81BCC2004A4FBC /* AppDelegate.swift */,
+				01EF72621B81BCC2004A4FBC /* GameScene.sks */,
+				01EF72641B81BCC2004A4FBC /* GameScene.swift */,
+				01EF72661B81BCC2004A4FBC /* GameViewController.swift */,
+				01EF72681B81BCC2004A4FBC /* Main.storyboard */,
+				01EF726B1B81BCC2004A4FBC /* Images.xcassets */,
+				01EF726D1B81BCC2004A4FBC /* LaunchScreen.xib */,
+				01EF725E1B81BCC2004A4FBC /* Supporting Files */,
+			);
+			path = Agario;
+			sourceTree = "<group>";
+		};
+		01EF725E1B81BCC2004A4FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01EF725F1B81BCC2004A4FBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01EF72771B81BCC2004A4FBC /* AgarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				01EF727A1B81BCC2004A4FBC /* AgarioTests.swift */,
+				01EF72781B81BCC2004A4FBC /* Supporting Files */,
+			);
+			path = AgarioTests;
+			sourceTree = "<group>";
+		};
+		01EF72781B81BCC2004A4FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01EF72791B81BCC2004A4FBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01EF725A1B81BCC2004A4FBC /* Agario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EF727E1B81BCC2004A4FBC /* Build configuration list for PBXNativeTarget "Agario" */;
+			buildPhases = (
+				01EF72571B81BCC2004A4FBC /* Sources */,
+				01EF72581B81BCC2004A4FBC /* Frameworks */,
+				01EF72591B81BCC2004A4FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agario;
+			productName = Agario;
+			productReference = 01EF725B1B81BCC2004A4FBC /* Agario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01EF72731B81BCC2004A4FBC /* AgarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EF72811B81BCC2004A4FBC /* Build configuration list for PBXNativeTarget "AgarioTests" */;
+			buildPhases = (
+				01EF72701B81BCC2004A4FBC /* Sources */,
+				01EF72711B81BCC2004A4FBC /* Frameworks */,
+				01EF72721B81BCC2004A4FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01EF72761B81BCC2004A4FBC /* PBXTargetDependency */,
+			);
+			name = AgarioTests;
+			productName = AgarioTests;
+			productReference = 01EF72741B81BCC2004A4FBC /* AgarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01EF72531B81BCC2004A4FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Michaelin;
+				TargetAttributes = {
+					01EF725A1B81BCC2004A4FBC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					01EF72731B81BCC2004A4FBC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 01EF725A1B81BCC2004A4FBC;
+					};
+				};
+			};
+			buildConfigurationList = 01EF72561B81BCC2004A4FBC /* Build configuration list for PBXProject "Agario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01EF72521B81BCC2004A4FBC;
+			productRefGroup = 01EF725C1B81BCC2004A4FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01EF725A1B81BCC2004A4FBC /* Agario */,
+				01EF72731B81BCC2004A4FBC /* AgarioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01EF72591B81BCC2004A4FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EF726F1B81BCC2004A4FBC /* LaunchScreen.xib in Resources */,
+				01EF726C1B81BCC2004A4FBC /* Images.xcassets in Resources */,
+				01EF72631B81BCC2004A4FBC /* GameScene.sks in Resources */,
+				01EF726A1B81BCC2004A4FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EF72721B81BCC2004A4FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EF72571B81BCC2004A4FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EF72651B81BCC2004A4FBC /* GameScene.swift in Sources */,
+				01EF72671B81BCC2004A4FBC /* GameViewController.swift in Sources */,
+				01EF72611B81BCC2004A4FBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EF72701B81BCC2004A4FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EF727B1B81BCC2004A4FBC /* AgarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01EF72761B81BCC2004A4FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01EF725A1B81BCC2004A4FBC /* Agario */;
+			targetProxy = 01EF72751B81BCC2004A4FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01EF72681B81BCC2004A4FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EF72691B81BCC2004A4FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01EF726D1B81BCC2004A4FBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EF726E1B81BCC2004A4FBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01EF727C1B81BCC2004A4FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01EF727D1B81BCC2004A4FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01EF727F1B81BCC2004A4FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Agario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01EF72801B81BCC2004A4FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Agario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01EF72821B81BCC2004A4FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agario.app/Agario";
+			};
+			name = Debug;
+		};
+		01EF72831B81BCC2004A4FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agario.app/Agario";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01EF72561B81BCC2004A4FBC /* Build configuration list for PBXProject "Agario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EF727C1B81BCC2004A4FBC /* Debug */,
+				01EF727D1B81BCC2004A4FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EF727E1B81BCC2004A4FBC /* Build configuration list for PBXNativeTarget "Agario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EF727F1B81BCC2004A4FBC /* Debug */,
+				01EF72801B81BCC2004A4FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01EF72811B81BCC2004A4FBC /* Build configuration list for PBXNativeTarget "AgarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EF72821B81BCC2004A4FBC /* Debug */,
+				01EF72831B81BCC2004A4FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01EF72531B81BCC2004A4FBC /* Project object */;
+}
