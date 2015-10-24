@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012D61851BC7B7F50099BCA5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D61841BC7B7F50099BCA5 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		012D61871BC7F4FC0099BCA5 /* AiPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D61861BC7F4FC0099BCA5 /* AiPlayer.swift */; settings = {ASSET_TAGS = (); }; };
+		01470AD31BC2700D00944B3E /* FoodNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01470AD21BC2700D00944B3E /* FoodNode.swift */; settings = {ASSET_TAGS = (); }; };
+		01470AD51BC4D37800944B3E /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01470AD41BC4D37800944B3E /* PlayerNode.swift */; settings = {ASSET_TAGS = (); }; };
+		01470AD71BC4D38B00944B3E /* AiPlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01470AD61BC4D38B00944B3E /* AiPlayerNode.swift */; settings = {ASSET_TAGS = (); }; };
+		01A02B891B8EDB75004B8FDF /* WorldNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A02B881B8EDB75004B8FDF /* WorldNode.swift */; };
+		01B336D91BB6E06700A9ED6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B336D81BB6E06700A9ED6C /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		01D123351BCBB77C0080139D /* ObstacleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D123341BCBB77C0080139D /* ObstacleNode.swift */; settings = {ASSET_TAGS = (); }; };
 		01EF72611B81BCC2004A4FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF72601B81BCC2004A4FBC /* AppDelegate.swift */; };
 		01EF72631B81BCC2004A4FBC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01EF72621B81BCC2004A4FBC /* GameScene.sks */; };
 		01EF72651B81BCC2004A4FBC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF72641B81BCC2004A4FBC /* GameScene.swift */; };
@@ -15,6 +23,7 @@
 		01EF726C1B81BCC2004A4FBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EF726B1B81BCC2004A4FBC /* Images.xcassets */; };
 		01EF726F1B81BCC2004A4FBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EF726D1B81BCC2004A4FBC /* LaunchScreen.xib */; };
 		01EF727B1B81BCC2004A4FBC /* AgarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF727A1B81BCC2004A4FBC /* AgarioTests.swift */; };
+		01F797B61B9BF5D90010CC14 /* CircleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F797B51B9BF5D90010CC14 /* CircleNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012D61841BC7B7F50099BCA5 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		012D61861BC7F4FC0099BCA5 /* AiPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AiPlayer.swift; sourceTree = "<group>"; };
+		01470AD21BC2700D00944B3E /* FoodNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodNode.swift; sourceTree = "<group>"; };
+		01470AD41BC4D37800944B3E /* PlayerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		01470AD61BC4D38B00944B3E /* AiPlayerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AiPlayerNode.swift; sourceTree = "<group>"; };
+		01A02B881B8EDB75004B8FDF /* WorldNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldNode.swift; sourceTree = "<group>"; };
+		01B336D81BB6E06700A9ED6C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		01D123341BCBB77C0080139D /* ObstacleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObstacleNode.swift; sourceTree = "<group>"; };
 		01EF725B1B81BCC2004A4FBC /* Agario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EF725F1B81BCC2004A4FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01EF72601B81BCC2004A4FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +57,7 @@
 		01EF72741B81BCC2004A4FBC /* AgarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EF72791B81BCC2004A4FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01EF727A1B81BCC2004A4FBC /* AgarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgarioTests.swift; sourceTree = "<group>"; };
+		01F797B51B9BF5D90010CC14 /* CircleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +99,18 @@
 		01EF725D1B81BCC2004A4FBC /* Agario */ = {
 			isa = PBXGroup;
 			children = (
-				01EF72601B81BCC2004A4FBC /* AppDelegate.swift */,
 				01EF72621B81BCC2004A4FBC /* GameScene.sks */,
+				01EF72601B81BCC2004A4FBC /* AppDelegate.swift */,
+				01F797B51B9BF5D90010CC14 /* CircleNode.swift */,
 				01EF72641B81BCC2004A4FBC /* GameScene.swift */,
+				01B336D81BB6E06700A9ED6C /* MainViewController.swift */,
+				012D61841BC7B7F50099BCA5 /* Player.swift */,
+				01470AD21BC2700D00944B3E /* FoodNode.swift */,
+				01D123341BCBB77C0080139D /* ObstacleNode.swift */,
+				01470AD41BC4D37800944B3E /* PlayerNode.swift */,
+				01470AD61BC4D38B00944B3E /* AiPlayerNode.swift */,
+				012D61861BC7F4FC0099BCA5 /* AiPlayer.swift */,
+				01A02B881B8EDB75004B8FDF /* WorldNode.swift */,
 				01EF72661B81BCC2004A4FBC /* GameViewController.swift */,
 				01EF72681B81BCC2004A4FBC /* Main.storyboard */,
 				01EF726B1B81BCC2004A4FBC /* Images.xcassets */,
@@ -162,7 +189,9 @@
 		01EF72531B81BCC2004A4FBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Michaelin;
 				TargetAttributes = {
 					01EF725A1B81BCC2004A4FBC = {
@@ -219,9 +248,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01470AD71BC4D38B00944B3E /* AiPlayerNode.swift in Sources */,
+				01A02B891B8EDB75004B8FDF /* WorldNode.swift in Sources */,
 				01EF72651B81BCC2004A4FBC /* GameScene.swift in Sources */,
 				01EF72671B81BCC2004A4FBC /* GameViewController.swift in Sources */,
+				01B336D91BB6E06700A9ED6C /* MainViewController.swift in Sources */,
+				01F797B61B9BF5D90010CC14 /* CircleNode.swift in Sources */,
+				012D61871BC7F4FC0099BCA5 /* AiPlayer.swift in Sources */,
 				01EF72611B81BCC2004A4FBC /* AppDelegate.swift in Sources */,
+				01D123351BCBB77C0080139D /* ObstacleNode.swift in Sources */,
+				01470AD51BC4D37800944B3E /* PlayerNode.swift in Sources */,
+				012D61851BC7B7F50099BCA5 /* Player.swift in Sources */,
+				01470AD31BC2700D00944B3E /* FoodNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +322,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -350,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Agario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michaelin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -360,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Agario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michaelin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -378,6 +419,7 @@
 				);
 				INFOPLIST_FILE = AgarioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michaelin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agario.app/Agario";
 			};
@@ -393,6 +435,7 @@
 				);
 				INFOPLIST_FILE = AgarioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michaelin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agario.app/Agario";
 			};
@@ -417,6 +460,7 @@
 				01EF72801B81BCC2004A4FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01EF72811B81BCC2004A4FBC /* Build configuration list for PBXNativeTarget "AgarioTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +469,7 @@
 				01EF72831B81BCC2004A4FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,24 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVB-YS-i5n">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Shb-pA-lzO">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="Msh-cR-Y0u">
+            <objects>
+                <viewController id="Shb-pA-lzO" customClass="MainViewController" customModule="Agario" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gt8-bC-bZO"/>
+                        <viewControllerLayoutGuide type="bottom" id="a2j-Hq-DPb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wbw-rI-abW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zCJ-bz-dNo">
+                                <rect key="frame" x="303" y="96" width="129" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="dqF-2o-sNo"/>
+                                    <constraint firstAttribute="width" constant="129" id="pvr-3U-20y"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Joystick"/>
+                                    <segment title="Gravity"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="e9n-Wm-ZLX">
+                                <rect key="frame" x="168" y="96" width="127" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="H2i-gd-quL"/>
+                                    <constraint firstAttribute="width" constant="127" id="UmF-9A-fql"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Single"/>
+                                    <segment title="Multiple"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5A-ob-HZR">
+                                <rect key="frame" x="261" y="185" width="78" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="6qC-4R-qbq"/>
+                                    <constraint firstAttribute="height" constant="30" id="X5B-Ki-8gt"/>
+                                </constraints>
+                                <state key="normal" title="Start Game"/>
+                                <connections>
+                                    <action selector="startGameBtnTouched:" destination="Shb-pA-lzO" eventType="touchUpInside" id="kpO-kv-AnS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acZ-P8-60J">
+                                <rect key="frame" x="168" y="62" width="50" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="42V-SN-YOa"/>
+                                    <constraint firstAttribute="height" constant="21" id="rfE-BR-PO4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mtW-GW-5NS">
+                                <rect key="frame" x="226" y="58" width="206" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="gwT-BO-eEW"/>
+                                    <constraint firstAttribute="height" constant="30" id="qJk-1q-nGa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mtW-GW-5NS" firstAttribute="centerX" secondItem="Wbw-rI-abW" secondAttribute="centerX" constant="29" id="HI3-Nr-Zwd"/>
+                            <constraint firstItem="mtW-GW-5NS" firstAttribute="top" secondItem="Gt8-bC-bZO" secondAttribute="bottom" constant="38" id="Oas-nt-hs2"/>
+                            <constraint firstItem="acZ-P8-60J" firstAttribute="top" secondItem="Gt8-bC-bZO" secondAttribute="bottom" constant="42" id="PH0-9a-Fgj"/>
+                            <constraint firstItem="i5A-ob-HZR" firstAttribute="centerX" secondItem="Wbw-rI-abW" secondAttribute="centerX" id="PLz-9Q-JVz"/>
+                            <constraint firstItem="e9n-Wm-ZLX" firstAttribute="centerX" secondItem="Wbw-rI-abW" secondAttribute="centerX" constant="-68.5" id="WIb-Cg-C46"/>
+                            <constraint firstItem="e9n-Wm-ZLX" firstAttribute="top" secondItem="mtW-GW-5NS" secondAttribute="bottom" constant="8" id="WxD-sL-VC4"/>
+                            <constraint firstItem="zCJ-bz-dNo" firstAttribute="centerX" secondItem="Wbw-rI-abW" secondAttribute="centerX" constant="67.5" id="XtB-9R-NuK"/>
+                            <constraint firstItem="i5A-ob-HZR" firstAttribute="top" secondItem="e9n-Wm-ZLX" secondAttribute="bottom" constant="61" id="a9D-tH-KNt"/>
+                            <constraint firstItem="zCJ-bz-dNo" firstAttribute="top" secondItem="mtW-GW-5NS" secondAttribute="bottom" constant="8" id="yCB-Zq-VXK"/>
+                            <constraint firstItem="acZ-P8-60J" firstAttribute="centerX" secondItem="Wbw-rI-abW" secondAttribute="centerX" constant="-107" id="yw1-y5-Ahg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="controlSegmentedControl" destination="zCJ-bz-dNo" id="PAO-AT-1gC"/>
+                        <outlet property="playerNameTextField" destination="mtW-GW-5NS" id="wxF-bg-vrt"/>
+                        <outlet property="playerSegmentedControl" destination="e9n-Wm-ZLX" id="8Pb-Ch-vrx"/>
+                        <segue destination="LVB-YS-i5n" kind="show" identifier="startGameSegue" id="l0c-tm-3W6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OpW-D6-L6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567" y="197"/>
+        </scene>
         <!--Game View Controller-->
         <scene sceneID="CtS-rA-C9T">
             <objects>
-                <viewController id="LVB-YS-i5n" customClass="GameViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LVB-YS-i5n" customClass="GameViewController" customModule="Agario" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PCf-gQ-wO7"/>
                         <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6nZ-ah-dcM" appends="YES" id="iF9-zG-CES"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="6nZ-ah-dcM">
+                    <connections>
+                        <outlet property="delegate" destination="LVB-YS-i5n" id="CDa-5a-Zxs"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>

@@ -8,6 +8,28 @@
 
 import UIKit
 
+let playerCategory:UInt32 =  0x1 << 1
+let foodCategory:UInt32 =  0x1 << 2
+let aiPlayerCategory:UInt32 = 0x1 << 4
+let boundaryCategory:UInt32 = 0x1 << 8
+let obstacleCategory:UInt32 = 0x1 << 16
+
+let COMPARE_RATE:CGFloat = 0.9
+let PLAYER_SIZE:CGFloat = 20
+let AIPLAYER_SIZE:CGFloat = 20
+let FOOD_SIZE:CGFloat = 10
+let OBSTACLE_SIZE:CGFloat = 60
+let WIDTH:CGFloat = 3333
+let HEIGHT:CGFloat = 3333
+let SEARCH_RANGE:CGFloat = 10
+let MERGE_TIME:Double = 10
+
+let AIPLAYER_QTY = 6
+let OBSTACLE_QTY = 6
+let FOOD_QTY = 333
+
+let removeNodeQueue = dispatch_queue_create("removeNodeQueue", DISPATCH_QUEUE_SERIAL)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
