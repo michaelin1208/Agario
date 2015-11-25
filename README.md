@@ -1,0 +1,3 @@
+It realizes a Agario game in iPhone devices. In this game, user acts as a cell to eat small cells to grow up, and it also can split into two smaller cells. Furthermore, big cells will be destroy by sharp items into many small cells. 
+The requirments of this game is listed in "Game Marking Guide.pdf". 
+Due to the limitation of time, I do not realize the multi-player mode. But there are some AI Players added into the game to fight with users. 
